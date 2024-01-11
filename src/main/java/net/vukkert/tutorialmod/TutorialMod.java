@@ -2,6 +2,9 @@ package net.vukkert.tutorialmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.vukkert.tutorialmod.block.ModBlocks;
+import net.vukkert.tutorialmod.item.ModItemGroups;
+import net.vukkert.tutorialmod.item.Moditems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -12,7 +15,9 @@ public class TutorialMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 
+		ModItemGroups.registerItemGroups();
 
-		LOGGER.info("Hello Fabric world!");
+		Moditems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
