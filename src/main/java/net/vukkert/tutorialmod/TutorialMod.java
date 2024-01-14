@@ -2,9 +2,11 @@ package net.vukkert.tutorialmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
+import net.fabricmc.fabric.impl.content.registry.FuelRegistryImpl;
 import net.vukkert.tutorialmod.block.ModBlocks;
-import net.vukkert.tutorialmod.item.ModItemGroups;
-import net.vukkert.tutorialmod.item.Moditems;
+import net.vukkert.tutorialmod.item.custom.ModItemGroups;
+import net.vukkert.tutorialmod.item.custom.Moditems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

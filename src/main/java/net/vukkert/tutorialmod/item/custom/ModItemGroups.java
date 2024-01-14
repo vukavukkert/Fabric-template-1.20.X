@@ -1,4 +1,4 @@
-package net.vukkert.tutorialmod.item;
+package net.vukkert.tutorialmod.item.custom;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
@@ -20,6 +20,8 @@ public class ModItemGroups {
                         entries.add(Moditems.RAW_RUBY);
 
                         entries.add(Moditems.METAL_DETECTOR);
+                        entries.add(Moditems.TOMATO);
+                        entries.add(Moditems.COAL_BRICK);
 
                         entries.add(Items.DIAMOND);
                         entries.add(ModBlocks.RUBY_BLOCK);

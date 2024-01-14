@@ -2,8 +2,13 @@
   "item.tutorialmod.ruby": "Ruby",
   "item.tutorialmod.raw_ruby": "Raw Ruby",
 
+  "item.tutorialmod.tomato": "Tomato",
+  "item.tutorialmod.coal_brick": "Coal brick",
+
   "item.tutorialmod.metal_detector": "Metal detector",
+  "tooltip.tutorialmod.metal_detector.tooltip": "Finds valuable ores underground",
   "block.tutorialmod.sound_block": "Sound block",
+  "tooltip.tutorialmod.sound_block.tooltip": "Block that makes sounds",
 
   "block.tutorialmod.ruby_block": "Block of Ruby",
   "block.tutorialmod.raw_ruby_block": "Block of Raw Ruby",
