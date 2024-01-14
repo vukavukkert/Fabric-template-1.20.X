@@ -2,6 +2,9 @@
   "item.tutorialmod.ruby": "Ruby",
   "item.tutorialmod.raw_ruby": "Raw Ruby",
 
+  "item.tutorialmod.metal_detector": "Metal detector",
+  "block.tutorialmod.sound_block": "Sound block",
+
   "block.tutorialmod.ruby_block": "Block of Ruby",
   "block.tutorialmod.raw_ruby_block": "Block of Raw Ruby",
 
