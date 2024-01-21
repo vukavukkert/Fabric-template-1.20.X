@@ -46,5 +46,20 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider{
                 .add(ModBlocks.RUBY_ORE);
         getOrCreateTagBuilder(TagKey.of(RegistryKeys.BLOCK, new Identifier("fabric", "needs_tool_level_4")))
                 .add(ModBlocks.END_STONE_RUBY_ORE);
+
+        getOrCreateTagBuilder(BlockTags.FENCES) //important to keep under corresponding tag for fences to connect properly
+                .add(ModBlocks.RUBY_FENCE);
+
+        getOrCreateTagBuilder(BlockTags.FENCE_GATES)
+                .add(ModBlocks.RUBY_FENCE_GATE);
+
+        getOrCreateTagBuilder(BlockTags.WALLS)
+                .add(ModBlocks.RUBY_WALL);
+
+        getOrCreateTagBuilder(BlockTags.TRAPDOORS)
+                .add(ModBlocks.RUBY_TRAPDOOR);
+
+        getOrCreateTagBuilder(BlockTags.BUTTONS)
+                .add(ModBlocks.RUBY_BUTTON);
     }
 }

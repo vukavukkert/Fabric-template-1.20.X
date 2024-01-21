@@ -18,5 +18,18 @@
   "block.tutorialmod.nether_ruby_ore": "Nether Ruby Ore",
   "block.tutorialmod.end_stone_ruby_ore": "End Ruby Ore",
 
+
+  "block.tutorialmod.ruby_stairs": "Ruby stairs",
+  "block.tutorialmod.ruby_slab": "Ruby slab",
+  "block.tutorialmod.ruby_button": "Ruby button",
+  "block.tutorialmod.ruby_spressure_plate": "Ruby pressure plate",
+  "block.tutorialmod.ruby_fence": "Ruby fence",
+  "block.tutorialmod.ruby_fence_gate": "Ruby fence gate",
+  "block.tutorialmod.ruby_wall": "Ruby wall",
+  "block.tutorialmod.ruby_door": "Ruby door",
+  "block.tutorialmod.ruby_trapdoor": "Ruby trapdoor",
+
+
+
   "itemgroup.ruby": "Ruby Tutorial Group"
 }

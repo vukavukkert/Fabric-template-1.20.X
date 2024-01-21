@@ -42,5 +42,13 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.STONE), conditionsFromItem(Items.STONE))
                 .criterion(hasItem(Moditems.RUBY), conditionsFromItem(Moditems.RUBY))
                 .offerTo(exporter, new Identifier(getRecipeName(Moditems.RAW_RUBY)));
+
+
+
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.RUBY_WALL, ModBlocks.RUBY_BLOCK);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.RUBY_FENCE, ModBlocks.RUBY_BLOCK, 4);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.RUBY_FENCE_GATE, ModBlocks.RUBY_BLOCK, 1);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.RUBY_TRAPDOOR, ModBlocks.RUBY_BLOCK, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.RUBY_DOOR, ModBlocks.RUBY_BLOCK, 3);
     }
 }

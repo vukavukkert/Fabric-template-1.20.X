@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "tutorialmod:ruby_block"
+  },
+  "result": "tutorialmod:ruby_fence_gate"
+}
