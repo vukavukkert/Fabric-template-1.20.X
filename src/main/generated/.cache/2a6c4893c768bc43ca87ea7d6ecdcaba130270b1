@@ -1,9 +1,9 @@
-// 1.20.2	2024-01-21T16:09:45.9808799	TutorialMod/Block Loot Tables
+// 1.20.2	2024-01-30T17:40:02.4909281	TutorialMod/Block Loot Tables
 4f767a7637e8a06ab8dc288b173877b52afc87f4 data\tutorialmod\loot_tables\blocks\ruby_button.json
 a77a150c7851fbaf830081a89b0e3371ad62225d data\tutorialmod\loot_tables\blocks\ruby_fence_gate.json
 3f950c6a949fc7757f6ee79a0dc95e652cf721fa data\tutorialmod\loot_tables\blocks\ruby_ore.json
-03a3b82f1a2fb709266d0911c5987cde08a8ef10 data\tutorialmod\loot_tables\blocks\end_stone_ruby_ore.json
 4bf0bfaf4e6545bdaa95f0e9a62a72e5b62bb9d0 data\tutorialmod\loot_tables\blocks\ruby_stairs.json
+03a3b82f1a2fb709266d0911c5987cde08a8ef10 data\tutorialmod\loot_tables\blocks\end_stone_ruby_ore.json
 865399c15f94da491a91fa8bc983868706016198 data\tutorialmod\loot_tables\blocks\ruby_wall.json
 10efab6566ae1503d35bf6302a55b1e7203fa2e6 data\tutorialmod\loot_tables\blocks\ruby_fence.json
 01b515238d9fe6e695ccb6cde2add8caa23ef2d1 data\tutorialmod\loot_tables\blocks\deepslate_ruby_ore.json

@@ -27,6 +27,10 @@ public abstract class ItemRendererMixin {
             return ((ItemRendererAccessor) this).mccourse$getModels().getModelManager()
                     .getModel(new ModelIdentifier(TutorialMod.MOD_ID, "ruby_staff_3d", "inventory"));
         }
+        if (stack.isOf(Moditems.SCYTHE) && renderMode != ModelTransformationMode.GUI) {
+            return ((ItemRendererAccessor) this).mccourse$getModels().getModelManager()
+                    .getModel(new ModelIdentifier(TutorialMod.MOD_ID, "scythe", "inventory"));
+        }
         return value;
     }
 }

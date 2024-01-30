@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
+import net.minecraft.item.ArmorItem;
 import net.vukkert.tutorialmod.block.ModBlocks;
 import net.vukkert.tutorialmod.item.custom.Moditems;
 
@@ -46,5 +47,21 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(Moditems.COAL_BRICK, Models.GENERATED);
         itemModelGenerator.register(Moditems.TOMATO, Models.GENERATED);
         itemModelGenerator.register(Moditems.METAL_DETECTOR, Models.GENERATED);
+
+        itemModelGenerator.register(Moditems.RUBY_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(Moditems.RUBY_AXE, Models.HANDHELD);
+        itemModelGenerator.register(Moditems.RUBY_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(Moditems.RUBY_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(Moditems.RUBY_HOE, Models.HANDHELD);
+
+        itemModelGenerator.registerArmor(((ArmorItem) Moditems.RUBY_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) Moditems.RUBY_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) Moditems.RUBY_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) Moditems.RUBY_BOOTS));
+
+        itemModelGenerator.registerArmor(((ArmorItem) Moditems.COAT_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) Moditems.COAT_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) Moditems.COAT_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) Moditems.COAT_BOOTS));
     }
 }

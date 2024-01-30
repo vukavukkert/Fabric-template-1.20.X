@@ -23,6 +23,23 @@ public class ModItemGroups {
                         entries.add(Moditems.TOMATO);
                         entries.add(Moditems.COAL_BRICK);
                         entries.add(Moditems.RUBY_STAFF);
+                        entries.add(Moditems.SCYTHE);
+
+                        entries.add(Moditems.RUBY_PICKAXE);
+                        entries.add(Moditems.RUBY_AXE);
+                        entries.add(Moditems.RUBY_SWORD);
+                        entries.add(Moditems.RUBY_SHOVEL);
+                        entries.add(Moditems.RUBY_HOE);
+
+                        entries.add(Moditems.RUBY_HELMET);
+                        entries.add(Moditems.RUBY_CHESTPLATE);
+                        entries.add(Moditems.RUBY_LEGGINGS);
+                        entries.add(Moditems.RUBY_BOOTS);
+
+                        entries.add(Moditems.COAT_HELMET);
+                        entries.add(Moditems.COAT_CHESTPLATE);
+                        entries.add(Moditems.COAT_LEGGINGS);
+                        entries.add(Moditems.COAT_BOOTS);
 
                         entries.add(Items.DIAMOND);
                         entries.add(ModBlocks.RUBY_BLOCK);
