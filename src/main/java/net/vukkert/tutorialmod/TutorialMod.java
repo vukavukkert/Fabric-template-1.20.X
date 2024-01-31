@@ -7,6 +7,7 @@ import net.fabricmc.fabric.impl.content.registry.FuelRegistryImpl;
 import net.vukkert.tutorialmod.block.ModBlocks;
 import net.vukkert.tutorialmod.item.custom.ModItemGroups;
 import net.vukkert.tutorialmod.item.custom.Moditems;
+import net.vukkert.tutorialmod.util.ModLootTableModifiers;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -21,5 +22,7 @@ public class TutorialMod implements ModInitializer {
 
 		Moditems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		ModLootTableModifiers.modifyLootTables();
 	}
 }

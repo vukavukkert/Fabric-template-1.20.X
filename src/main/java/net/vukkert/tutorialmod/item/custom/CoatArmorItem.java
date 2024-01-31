@@ -2,15 +2,18 @@ package net.vukkert.tutorialmod.item.custom;
 
 import com.google.common.collect.ImmutableMap;
 
+import com.google.common.eventbus.Subscribe;
 import com.mojang.brigadier.LiteralMessage;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.entity.Entity;
+import net.minecraft.entity.damage.DamageSource;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.ArmorMaterial;
 import net.minecraft.item.ItemStack;
+import net.minecraft.registry.tag.EntityTypeTags;
 import net.minecraft.text.LiteralTextContent;
 import net.minecraft.text.Text;
 import net.minecraft.world.World;
@@ -47,6 +50,7 @@ public class CoatArmorItem extends ArmorItem {
                         }
                     }
                     player.sendMessage(Text.literal(Float.toString(FlightDuration)));
+
                 }
             }
 
